@@ -1,6 +1,7 @@
-const meses = ["enero, febrero, marzo, abril, mayo, junio, julio, agosto, sptiembre, octubre, noviembre, diciembre"];
+const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+console.log(meses);
 
-document.write(`<p>el primer elemento del array es ${meses[0]}</p>`)
+
 document.write("<h2>Lista de meses</h2>");
 document.write("<ul>")
 for(let listadeMeses = 0; listadeMeses < meses.length; listadeMeses++ ){
